@@ -15,7 +15,7 @@ function checkAnswer(){
         if (userAnswer === correctAnswer) {
             result.textContent = "Correct! Well done.";
         } else if (userAnswer){
-            result.textContent = "Incorrect. Try again!";
+            result.textContent = "That's incorrect. Try again!";
         } else {
             result.textContent = "No answer selected.";
         }
